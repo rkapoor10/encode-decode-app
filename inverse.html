@@ -8,21 +8,23 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+    <div class="container">
     <nav class="navigation" style="background-color: var(--secondary-color);">
         <h1>DECODER</h1>
     </nav>
     <a class="btn-style btn-inverse" href="/index.html">Inverse</a>
-    <textarea id="txt-input" placeholder="Enter text here" ></textarea>
+    <textarea id="txt-input" class="box-style" placeholder="Enter text here" ></textarea>
     
     
     <button id="btn-code" class="btn btn-style" >Decode</button>
-    
-    <div>Decoded Text ㊙️</div>
+    <div style="padding: 1rem;"> </div>
+    <div style="font-size: larger; text-align: center;">Decoded Text 🔑 </div>
     <div id="output" class="box-style"></div>
     <footer class="footer"  style="background-color: var(--primary-color);">
         <h1>about</h1>
-        <p style="font-size: larger;">ARE YOU A FAN OF MINIONS??  Did you know that the gibberish they speak is an actual language. Use this translator to convert English text to Minion's tongue or the Banana language.</p>
+        <p style="font-size: larger;">This is markSeven. I used the mock server to create an encoder decoder based on caesar cipher. Use this to send cipher messages to your friends.</p>
     </footer>
+    </div>
 
     <script src="appinverse.js" type="text/javascript"></script>
 </body>

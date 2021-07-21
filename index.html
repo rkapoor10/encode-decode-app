@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,32 @@
     <title>encoder</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
+
 <body>
+    <div class="container">
     <nav class="navigation">
         <h1>ENCODER</h1>
     </nav>
-    
-    <a href="/inverse.html">Inverse</a>
-    <textarea id="txt-input" placeholder="Enter text here" ></textarea>
+
+    <a class="btn-style btn-inverse" href="/inverse.html">Inverse</a>
+
+    <textarea id="txt-input" class="box-style" placeholder="Enter text here"></textarea>
+
     <button id="btn-code" class="btn btn-style" >Encode</button>
-    <div>Encoded Text ㊙️</div>
-    <div id="output"></div>
+
+    <div style="padding: 1rem;"> </div>
+
+    <div style="font-size: larger; text-align: center;">Encoded Text 🔒</div>
+
+    <div id="output" class="box-style" ></div>
+
     <footer class="footer">
         <h1>about</h1>
-        <p style="font-size: larger;">ARE YOU A FAN OF MINIONS??  Did you know that the gibberish they speak is an actual language. Use this translator to convert English text to Minion's tongue or the Banana language.</p>
+        <p style="font-size: larger;">This is markSeven. I used the mock server to create an encoder decoder based on caesar cipher. Use this to send cipher messages to your friends.</p>
     </footer>
+    </div>
 
     <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
